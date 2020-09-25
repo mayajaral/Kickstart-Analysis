@@ -30,6 +30,7 @@ With this pivot table:
 ![Pivottablelaunchdatafilters](https://github.com/mayajaral/Kickstart-Analysis/blob/master/ReadMEImages/Pivottablelaunchdatafilters.PNG)
 
 And the outcome of:
+![Pivottablelaunchdata.PNG](https://github.com/mayajaral/Kickstart-Analysis/blob/master/ReadMEImages/Pivottablelaunchdata.PNG)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -57,15 +58,15 @@ The analysis of the outcomes based on goals was performed using the COUNTIF func
      - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
  
 These numbers were then used to determine the percentage of total successful, failed and cancelled projects in each goal bracket, resulting in this table:
-
+![OutcomesGoals.PNG](https://github.com/mayajaral/Kickstart-Analysis/blob/master/ReadMEImages/OutcomesGoals.PNG)
 ### Challenges and Difficulties Encountered
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-
+![Theater_Outcomes_vs_Launch.PNG](https://github.com/mayajaral/Kickstart-Analysis/blob/master/Resources/Theater_Outcomes_vs_Launch.PNG)
 - What can you conclude about the Outcomes based on Goals?
-
+![OOutcomes_vs_Goals.png](https://github.com/mayajaral/Kickstart-Analysis/blob/master/Resources/Outcomes_vs_Goals.png)
 - What are some limitations of this dataset?
 
 - What are some other possible tables and/or graphs that we could create?
