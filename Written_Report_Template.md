@@ -41,18 +41,22 @@ The analysis of the outcomes based on goals was performed using the COUNTIF func
    - Greater than 50000
      - =COUNTIFS(Kickstarter!$F:$F, "successful", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
 2. Number Failed
-   - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays")
-      - Brackets of 5000 between 1000 and 50000
-        - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, ">=1000",Kickstarter!$D:$D, "<=4999", Kickstarter!$R:$R, "plays")
-      - Greater than 50000
-        - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
+   - Less than 1000
+     - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays")
+    - Brackets of 5000 between 1000 and 50000
+       - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, ">=1000",Kickstarter!$D:$D, "<=4999", Kickstarter!$R:$R, "plays")
+    - Greater than 50000
+      - =COUNTIFS(Kickstarter!$F:$F, "failed", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
 3. Number Canceled
-   - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays")
-      - Brackets of 5000 between 1000 and 50000
-        - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, ">=1000",Kickstarter!$D:$D, "<=4999", Kickstarter!$R:$R, "plays")
-      - Greater than 50000
-        - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
-   - 
+   - Less than 1000
+     - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays")
+   - Brackets of 5000 between 1000 and 50000
+     - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, ">=1000",Kickstarter!$D:$D, "<=4999", Kickstarter!$R:$R, "plays")
+   - Greater than 50000
+     - =COUNTIFS(Kickstarter!$F:$F, "canceled", Kickstarter!$D:$D, ">=50000", Kickstarter!$R:$R, "plays")
+ 
+These numbers were then used to determine the percentage of total successful, failed and cancelled projects in each goal bracket, resulting in this table:
+
 ### Challenges and Difficulties Encountered
 
 ## Results
