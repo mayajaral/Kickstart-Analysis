@@ -27,6 +27,7 @@ The analysis of the outcome based on the launch date was performed using a pivot
 This looked like this filtering:
 
 With this pivot table:
+![Pivottablelaunchdatafilters](https://github.com/mayajaral/Kickstart-Analysis/blob/master/ReadMEImages/Pivottablelaunchdatafilters.PNG)
 
 And the outcome of:
 
