@@ -8,7 +8,9 @@ The purpose of the project is to help Louise determine the best parameters to ac
 The data was analyzed using Excel pivot tables, filtering & conditionals. To aquire a holistic understanding of the data new columns were created with unique analysis-
 1. Percentage funding
    - The percentage funding was calculated using the **pledge**(E) and **goal**(D).
+     '''Excel
      -  =ROUND(E2783/D2783*100,0) 
+     '''
 2. Average Donation
    - The average donations were determined by dividing the **pledge** (E) amount by the **backers_count** (L) to obtain the average contribution. 
      -  =IFERROR(ROUND(E2783/L2783,2),0) 
